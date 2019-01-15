@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class InvalidEmailException extends Exception {
 
-public class InvalidEmailException {
+    public InvalidEmailException(String errorMessage){
+        super(errorMessage);
+    }
 }

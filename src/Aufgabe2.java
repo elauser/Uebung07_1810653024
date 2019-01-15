@@ -10,7 +10,7 @@ public class Aufgabe2 {
             Integer.parseInt(JOptionPane.showInputDialog("Geben Sie eine Zahl ein"));
         }
         catch(NumberFormatException e){
-            System.out.println("Falsche Eingabe");
+            System.err.println("Falsche Eingabe");
             zahl();
         }
     }
